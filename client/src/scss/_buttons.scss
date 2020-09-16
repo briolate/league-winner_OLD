@@ -1,0 +1,37 @@
+button {
+  font: inherit;
+  background: $gray;
+  border: 1px solid $gray;
+  cursor: pointer;
+  color: white;
+  padding: 0.75rem 1rem;
+}
+
+button.submit {
+  background: $gray;
+  border: 1px solid $gray;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: $secondary-green;
+  border-color: $secondary-green;
+}
+
+button.active {
+  background-color: $primary-green;
+  border-color: $primary-green;
+}
+
+#auth-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}

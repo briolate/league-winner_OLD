@@ -1,0 +1,38 @@
+#landing {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: $primary-green;
+  color: $green-yellow;
+  .banner-content {
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  h1 {
+    font-size: 72px;
+    text-shadow: 3px 3px 3px $dark-color;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+.login {
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  background-color: $green-yellow;
+  padding: 3rem;
+}

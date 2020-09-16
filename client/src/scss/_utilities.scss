@@ -1,0 +1,84 @@
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  width: 100%;
+  max-width: 30rem;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background: #fff5f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  padding-top: 6rem;
+  margin-bottom: 3rem;
+  background-color: $light-color;
+}
+
+// Alerts
+.alert {
+  padding: 0.8rem;
+  opacity: 0.9;
+  background: $light-color;
+  color: $dark-color;
+  width: 100%;
+  text-align: center;
+}
+.alert-light {
+  background: $light-color;
+  color: $dark-color;
+}
+.alert-dark {
+  background: $dark-color;
+  color: $light-color;
+}
+.alert-danger {
+  background: $red;
+  color: $light-color;
+}
+.alert-success {
+  background: $secondary-green;
+  color: $light-color;
+}
+.alert-warning {
+  background: yellow;
+  color: $dark-color;
+}
+.alert-white {
+  background: $light-color;
+  color: $dark-color;
+  border: $gray solid 1px;
+}
+
+// Spinner
+#spinner {
+  width: "200px";
+  margin: "auto";
+  display: "block";
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  .container {
+    margin-top: 8rem;
+  }
+}

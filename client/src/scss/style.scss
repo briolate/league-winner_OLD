@@ -1,0 +1,38 @@
+@import "config";
+@import "buttons";
+@import "utilities";
+@import "forms";
+@import "pages/landing";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: $light-color;
+  color: $dark-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
